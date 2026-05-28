@@ -1,0 +1,420 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #061826;
+    color: white;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    max-width: 1200px;
+    margin: auto;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #061826;
+}
+
+h1 {
+    font-size: 42px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+a:hover {
+    color: #00B8E6;
+
+}
+
+.hero {
+    padding: 120px 60px;
+    max-width: 1200px;
+}
+
+.hero h2 {
+    font-size: 64px;
+    line-height: 1.1;
+    margin-bottom: 25px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #b8c7d9;
+    line-height: 1.7;
+}
+
+.hero-botones {
+    margin-top: 40px;
+    display: flex;
+    gap: 20px;
+}
+
+.hero-botones a {
+    padding: 15px 30px;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.hero-botones a:first-child {
+    background-color: #00B8E6;
+    color: #061826;
+}
+
+.hero-botones a:last-child {
+    border: 2px solid #00B8E6;
+}
+
+.hero-contenido {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px
+}
+
+.hero-img {
+    width: 650px;
+    height: 420px;
+    background-color: #0b1f33;
+    border: 2px #00B8E6;
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #00B8E6;
+    font-size: 24px;
+    font-weight: 600;
+
+    flex-shrink: 0;
+}
+
+.hero-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.hero-texto {
+    max-width: 520px;
+}
+
+.info-servicio {
+    padding: 80px 60px;
+}
+
+.info-servicio h2 {
+    font-size: 42px;
+    margin-bottom: 42px;
+}
+
+.info-texto {
+    max-width: 700px;
+}
+
+.info-texto h3 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.info-texto p {
+    font-size: 18px;
+    line-height: 1.7;
+    color: #b8c7d9;
+}
+
+.info-texto ul {
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.info-texto li {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #b8c7d9
+}
+
+.table {
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 700px;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #1d3a50;
+}
+
+th {
+    color: #00B8E6;
+}
+
+.mapa {
+    margin-top: 25px;
+    max-width: 900px;
+}
+
+.mapa img {
+    width: 100%;
+    border-radius: 20px;
+    border: 2px solid #00B8E6;
+}
+
+.lista-accesibilidad {
+    display: block;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+.lista-accesibilidad li {
+    margin-bottom: 12px;
+}
+
+footer {
+    margin-top: 80px;
+    padding: 30px;
+    text-align: center;
+    border-top: 1px solid #1d3a50;
+    color: #8bc7d9;
+    font-size: 15px;
+}
+
+.hero-servicios {
+    padding: 100px 60px;
+}
+
+.hero-servicios-texto {
+    font-size: 64px;
+    margin-bottom: 25px;
+}
+
+.hero-servicios h1 {
+    font-size: 64px;
+    margin-bottom: 25px;
+}
+
+.hero-servicios p {
+    font-size: 22px;
+    line-height: 1.7;
+    color: #8bc7d9;
+}
+
+.servicios-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    padding: 0 60px 80px;
+}
+
+.card-servicios {
+    background-color: #071c2c;
+    padding: 35px;
+    border-radius: 20px;
+    border: 1px solid #123a50;
+
+}
+
+.card-servicios:hover {
+    transform: translateY(-5px);
+    border-color: #00B8E6;
+}
+
+.card-servicios h3 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.card-servicios p {
+    color: #8bc7d9;
+    line-height: 1.7;
+}
+
+.beneficios {
+    padding: 0 60px 80px;
+}
+
+.beneficios h2 {
+    font-size: 42px;
+    margin-bottom: 30px;
+}
+
+.lista-beneficios {
+    display: block;
+    padding-left: 20px;
+}
+
+.lista-beneficios li {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.cta-servicios {
+    padding: 80px 60px;
+    text-align: center;
+}
+
+.cta-servicios h2 {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.cta-servicios p {
+    color: #8bc7d9;
+    margin-bottom: 35px;
+}
+
+.hero-destinos {
+    padding: 120px 60px 60px;
+    max-width: 1200px;
+}
+
+.hero-destinos h1 {
+    font-size: 64px;
+    margin-bottom: 25px;
+}
+
+.hero-destinos p {
+    font-size: 18px;
+    color: #b8c7d9;
+    line-height: 1.7;
+    max-width: 800px;
+}
+
+.destinos-grid {
+    padding: 20px 60px 80px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+}
+
+.card-destinos {
+    padding: 30px;
+    border: 2px solid #1d3a50;
+    border-radius: 20px;
+    background-color: #03182b;
+}
+
+.card-destinos:hover {
+    transform: translateY(-5px);
+    border-color: #00B8E6;
+}
+
+.card-destinos h3 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.card-destinos p {
+    color: #b8c7d9;
+    line-height: 1.7;
+}
+
+.hero-contacto {
+    padding: 120px 60px 60px;
+    max-width: 1200px;
+}
+
+.hero-contacto h1 {
+    font-size: 64px;
+    margin-bottom: 25px;
+}
+
+.hero-contacto p {
+    font-size: 18px;
+    color: #b8c7d9;
+    line-height: 1.7;
+    max-width: 700px;
+}
+
+.contacto-grid {
+    padding: 20px 60px 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.info-contacto {
+    display: grid;
+    gap: 20px;
+}
+
+.card-contacto {
+    padding: 25px;
+    border: 2px solid #1d3a50;
+    border-radius: 20px;
+    background-color: #03182b;
+}
+
+.card-contacto h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.card-contacto p {
+    color: #b8c7d9;
+    line-height: 1.6;
+}
+
+.formulario-contacto {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.formulario-contacto input,
+.formulario-contacto textarea {
+    padding: 18px;
+    border-radius: 15px;
+    border: 2px solid #1d3a50;
+    background-color: #03182b;
+    color: white;
+    font-size: 16px;
+}
+
+.formulario-contacto textarea {
+    min-height: 180px;
+    resize: none;
+}
+
+.formulario-contacto button {
+    padding: 18px;
+    border: none;
+    border-radius: 15px;
+    background-color: #00B8E6;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.formulario-contacto button:hover {
+    background-color: #0095bb;
+}
